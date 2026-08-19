@@ -21,7 +21,9 @@ export default function Home() {
     </header>
 
     <section className="hero">
-      <Image src={data.hero.image} fill priority alt="Festival Prefabrik modern ev projesi" sizes="100vw"/>
+      <video className="hero-video" autoPlay muted loop playsInline preload="metadata" poster={data.hero.image} aria-label="Festival Prefabrik projeleri">
+        <source src="/media/slider-festival.mp4" type="video/mp4"/>
+      </video>
       <div className="hero-shade"/><div className="hero-grid"/>
       <div className="hero-copy wrap">
         <div className="eyebrow"><span/> {data.hero.eyebrow}</div>
