@@ -22,7 +22,7 @@ export default function Home() {
 
     <section className="hero">
       <video className="hero-video" autoPlay muted loop playsInline preload="metadata" poster={data.hero.image} aria-label="Festival Prefabrik projeleri">
-        <source src="/media/slider-festival.mp4?v=2" type="video/mp4"/>
+        <source src="/media/slider-festival.mp4?v=3" type="video/mp4"/>
       </video>
       <div className="hero-shade"/><div className="hero-grid"/>
       <div className="hero-copy wrap">
