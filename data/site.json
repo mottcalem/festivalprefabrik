@@ -1,10 +1,11 @@
 {
   "brand": "Festival Prefabrik",
   "phone": "0356 551 11 00",
-  "mobile": "0532 297 08 71",
+  "mobile": "0554 366 02 03",
+  "secondaryMobile": "0532 297 08 71",
   "whatsapp": "",
   "email": "info@festivalprefabrik.com",
-  "address": "Niksar / Tokat",
+  "address": "Çevre Yolu Cad., Bağlar Mah. No: 9, Total Petrol Yanı, Niksar / Tokat",
   "hero": {
     "eyebrow": "Tokat'tan Türkiye'ye güvenle",
     "title": "Yeni bir yaşam, düşündüğünüzden daha yakın.",
@@ -13,9 +14,9 @@
   },
   "stats": [{"value":"20+","label":"Yıllık deneyim"},{"value":"500+","label":"Tamamlanan yapı"},{"value":"81","label":"İle sevkiyat"},{"value":"10 yıl","label":"Taşıyıcı sistem garantisi"}],
   "categories": [
-    {"title":"Tek Katlı Prefabrik Evler","text":"Zamansız tasarım, verimli planlama ve hızlı kurulum.","image":"https://www.festivalprefabrik.com/resim.asp?urun=138&w=900&h=700&nrs=urun","tag":"En çok tercih edilen"},
-    {"title":"Çift Katlı Prefabrik Evler","text":"Geniş aileler için ferah ve güçlü yaşam alanları.","image":"https://www.festivalprefabrik.com/resim.asp?urun=170&w=900&h=700&nrs=urun","tag":"Geniş yaşam"},
-    {"title":"Çelik Evler","text":"Yüksek dayanım, modern mimari ve uzun ömür.","image":"https://www.festivalprefabrik.com/resim.asp?urun=214&w=900&h=700&nrs=urun","tag":"Maksimum dayanım"}
+    {"title":"Tek Katlı Prefabrik Evler","text":"Zamansız tasarım, verimli planlama ve hızlı kurulum.","image":"https://www.festivalprefabrik.com/resim.asp?urun=138&w=900&h=700&nrs=urun","tag":"En çok tercih edilen","href":"/modeller?kategori=prefabrik-tek-kat"},
+    {"title":"Çift Katlı Prefabrik Evler","text":"Geniş aileler için ferah ve güçlü yaşam alanları.","image":"https://www.festivalprefabrik.com/resim.asp?urun=170&w=900&h=700&nrs=urun","tag":"Geniş yaşam","href":"/modeller?kategori=prefabrik-cift-kat"},
+    {"title":"Çelik Evler","text":"Yüksek dayanım, modern mimari ve uzun ömür.","image":"https://www.festivalprefabrik.com/resim.asp?urun=214&w=900&h=700&nrs=urun","tag":"Maksimum dayanım","href":"/modeller?kategori=celik-tek-kat"}
   ],
   "projects": [
     {"slug":"49-m2-tek-katli-ev","code":"FP-049","title":"49 m² Tek Katlı Ev","area":"49 m²","rooms":"2+1","bathrooms":"1","floors":"Tek kat","delivery":"30–45 gün","image":"https://www.festivalprefabrik.com/resim.asp?urun=126&w=1200&h=900&nrs=urun","description":"Kompakt yaşamı ferah bir planla buluşturan 49 m² modelimiz; yazlık, bağ evi veya küçük aileler için ekonomik ve konforlu bir çözüm sunar.","features":["Galvaniz çelik taşıyıcı sistem","Yüksek yoğunluklu ısı yalıtımı","PVC ısıcam pencere sistemi","Laminat parke ve seramik zemin","Elektrik ve sıhhi tesisat altyapısı","İç ve dış cephe boya uygulaması"]},
