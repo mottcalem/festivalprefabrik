@@ -3,21 +3,44 @@ import { ArrowRightIcon, CheckIcon, ChevronRightIcon } from '@heroicons/react/24
 import data from '@/data/site.json';
 import SiteHeader from '@/components/SiteHeader';
 import SiteFooter from '@/components/SiteFooter';
+import HeroSlider from '@/components/HeroSlider';
+import CompletedProjectsCarousel from '@/components/CompletedProjectsCarousel';
+
+const categoryGroups = [
+  {
+    title: 'Prefabrik Ev',
+    number: '01',
+    description: 'Hızlı, verimli ve ihtiyaca göre şekillenen prefabrik çözümler.',
+    categories: [
+      { title: 'Tek Kat', image: '/media/tamamlananprojeler/1.jpg', href: '/modeller?kategori=prefabrik-tek-kat' },
+      { title: 'Çift Kat', image: '/media/tamamlananprojeler/10.jpg', href: '/modeller?kategori=prefabrik-cift-kat' },
+      { title: 'Konteyner', image: '/media/tamamlananprojeler/18.jpg', href: '/modeller?kategori=konteyner' },
+    ],
+  },
+  {
+    title: 'Çelik Ev',
+    number: '02',
+    description: 'Dayanıklı, modern ve uzun ömürlü çelik yapı çözümleri.',
+    categories: [
+      { title: 'Tek Kat', image: '/media/tamamlananprojeler/24.jpg', href: '/modeller?kategori=celik-tek-kat' },
+      { title: 'Çift Kat', image: '/media/tamamlananprojeler/29.jpg', href: '/modeller?kategori=celik-cift-kat' },
+      { title: 'Bungalov', image: '/media/tamamlananprojeler/34.jpg', href: '/modeller?kategori=bungalov' },
+    ],
+  },
+];
 
 export default function Home() {
   return <main>
     <SiteHeader/>
 
     <section className="hero">
-      <video className="hero-video" autoPlay muted loop playsInline preload="metadata" poster={data.hero.image} aria-label="Festival Prefabrik projeleri">
-        <source src="/media/slider-festival.mp4?v=3" type="video/mp4"/>
-      </video>
+      <HeroSlider/>
       <div className="hero-shade"/><div className="hero-grid"/>
       <div className="hero-copy wrap">
         <div className="eyebrow"><span/> {data.hero.eyebrow}</div>
         <h1>Yeni bir yaşam,<br/><em>düşündüğünüzden</em><br/>daha yakın.</h1>
         <p>{data.hero.description}</p>
-        <div className="hero-actions"><a className="primary" href="#modeller">Modelleri keşfet <ArrowRightIcon/></a><a className="play" href="#surec"><span>▶</span> Nasıl üretiyoruz?</a></div>
+        <div className="hero-actions"><a className="primary" href="#modeller">Modelleri keşfet <ArrowRightIcon/></a></div>
       </div>
       <div className="hero-note"><b>01</b><span>Size özel tasarım<br/>Anahtar teslim çözüm</span></div>
     </section>
@@ -29,19 +52,20 @@ export default function Home() {
       <p>İhtiyacınıza, bütçenize ve arazinize en uygun yapıyı birlikte planlıyoruz. Her projede estetik, dayanıklılık ve enerji verimliliğini aynı çatı altında buluşturuyoruz.</p>
     </section>
 
-    <section className="category-grid wrap">{data.categories.map((c,i)=><article className="category" key={c.title}>
-      <Image src={c.image} fill alt={c.title} sizes="(max-width: 800px) 100vw, 33vw"/><div className="card-shade"/><span className="num">0{i+1}</span><div className="tag">{c.tag}</div>
-      <div className="card-copy"><h3>{c.title}</h3><p>{c.text}</p><a href={c.href}>Modelleri incele <ChevronRightIcon/></a></div>
+    <section className="category-groups wrap">{categoryGroups.map(group => <article className="category-group" key={group.title}>
+      <header className="category-group-head"><span>{group.number}</span><div><h3>{group.title}</h3><p>{group.description}</p></div></header>
+      <div className="subcategory-grid">{group.categories.map(category => <a className="subcategory" href={category.href} key={category.title}>
+        <Image src={category.image} fill alt={`${group.title} ${category.title}`} sizes="(max-width: 800px) 100vw, 20vw"/>
+        <div className="subcategory-shade"/><div className="subcategory-copy"><h4>{category.title}</h4><span>Modelleri incele <ChevronRightIcon/></span></div>
+      </a>)}</div>
     </article>)}</section>
+
+    <CompletedProjectsCarousel/>
 
     <section className="why" id="neden"><div className="why-image"><Image src="https://www.festivalprefabrik.com/resim.asp?urun=222&w=1100&h=900&nrs=urun" fill alt="Çelik ev projesi" sizes="50vw"/></div><div className="why-copy">
       <span className="section-kicker light">Neden Festival Prefabrik?</span><h2>Güvenle yükselen<br/>yaşam alanları.</h2><p>Yapınızı sadece bugün için değil, nesiller boyu güvenle kullanmanız için üretiyoruz.</p>
       <div className="benefits">{[['Depreme dayanıklı','Mühendislik standartlarına uygun taşıyıcı sistem.'],['Hızlı üretim','Haftalar içinde üretim ve montaj avantajı.'],['Isı ve ses yalıtımı','Dört mevsim konforlu, enerji verimli yaşam.'],['Şeffaf süreç','Planlamadan teslimata her adımda bilgilendirme.']].map(([a,b])=><div key={a}><span><CheckIcon/></span><section><b>{a}</b><small>{b}</small></section></div>)}</div>
     </div></section>
-
-    <section className="projects wrap" id="projeler"><div className="section-head"><div><span className="section-kicker">Öne çıkan modeller</span><h2>Hayalinize en yakın<br/><em>evi bulun.</em></h2></div><a href="/modeller">Tüm modeller <ArrowRightIcon/></a></div>
-      <div className="project-grid">{data.projects.map(p=><article key={p.title}><a href={`/modeller/${p.slug}`}><div className="project-img"><Image src={p.image} fill alt={p.title} sizes="(max-width: 700px) 100vw, 25vw"/><span>Detayları gör <ArrowRightIcon/></span></div><div className="project-info"><h3>{p.title}</h3><p>{p.area} <i/> {p.rooms}</p></div></a></article>)}</div>
-    </section>
 
     <section className="process" id="surec"><div className="wrap"><span className="section-kicker light">4 adımda yeni eviniz</span><h2>Fikirden anahtar teslime.</h2><div className="steps">{[['01','Keşif & ihtiyaç'],['02','Projelendirme'],['03','Üretim'],['04','Montaj & teslim']].map(([n,t],i)=><div key={n}><b>{n}</b><span>{t}</span>{i<3&&<ArrowRightIcon/>}</div>)}</div></div></section>
 
