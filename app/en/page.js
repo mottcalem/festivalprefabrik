@@ -27,7 +27,6 @@ export default function EnglishHome() {
     <section className="hero">
       <HeroSlider label="Festival Prefabrik projects" locale="en"/>
       <div className="hero-shade"/><div className="hero-grid"/>
-      <div className="hero-copy wrap"><div className="eyebrow"><span/> Built with confidence in Türkiye</div><h1>A new life is<br/><em>closer than</em><br/>you think.</h1><p>We create modern prefabricated and steel buildings that are fast, safe and designed around your needs.</p><div className="hero-actions"><a className="primary" href="#categories">Explore models <ArrowRightIcon/></a></div></div>
     </section>
 
     <section className="stats wrap">{[['20+','Years of experience'],['500+','Completed buildings'],['81','Cities delivered'],['10 years','Structural warranty']].map(([value,label],index)=><div key={label}><b>{value}</b><span>{label}</span>{index<3&&<i/>}</div>)}</section>

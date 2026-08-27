@@ -11,9 +11,21 @@ export default function CompletedProjectsCarousel({ locale = 'tr' }) {
   const isEnglish = locale === 'en';
   const trackRef = useRef(null);
   const [selected, setSelected] = useState(null);
+  const [isPaused, setIsPaused] = useState(false);
   const moveCarousel = direction => trackRef.current?.scrollBy({ left: direction * trackRef.current.clientWidth * .8, behavior: 'smooth' });
   const showPrevious = () => setSelected(current => (current - 1 + images.length) % images.length);
   const showNext = () => setSelected(current => (current + 1) % images.length);
+
+  useEffect(() => {
+    if (isPaused || selected !== null || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const timer = window.setInterval(() => {
+      const track = trackRef.current;
+      if (!track) return;
+      const isAtEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 20;
+      track.scrollTo({ left: isAtEnd ? 0 : track.scrollLeft + track.clientWidth * .8, behavior: 'smooth' });
+    }, 4000);
+    return () => window.clearInterval(timer);
+  }, [isPaused, selected]);
 
   useEffect(() => {
     if (selected === null) return;
@@ -39,7 +51,7 @@ export default function CompletedProjectsCarousel({ locale = 'tr' }) {
         <button type="button" onClick={() => moveCarousel(1)} aria-label={isEnglish ? 'Next images' : 'Sonraki görseller'}><ChevronRightIcon/></button>
       </div>
     </div>
-    <div className="completed-track" ref={trackRef}>
+    <div className="completed-track" ref={trackRef} onMouseEnter={() => setIsPaused(true)} onMouseLeave={() => setIsPaused(false)} onFocusCapture={() => setIsPaused(true)} onBlurCapture={event => !event.currentTarget.contains(event.relatedTarget) && setIsPaused(false)}>
       {images.map((src, index) => <button className="completed-card" type="button" onClick={() => setSelected(index)} aria-label={isEnglish ? `Enlarge completed project ${index + 1}` : `${index + 1}. tamamlanmış projeyi büyüt`} key={src}>
         <Image src={src} fill alt={isEnglish ? `Festival Prefabrik completed living space ${index + 1}` : `Festival Prefabrik tamamlanmış yaşam alanı ${index + 1}`} sizes="(max-width: 600px) 82vw, 420px"/>
         <span>{String(index + 1).padStart(2, '0')}</span>

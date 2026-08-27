@@ -36,13 +36,6 @@ export default function Home() {
     <section className="hero">
       <HeroSlider/>
       <div className="hero-shade"/><div className="hero-grid"/>
-      <div className="hero-copy wrap">
-        <div className="eyebrow"><span/> {data.hero.eyebrow}</div>
-        <h1>Yeni bir yaşam,<br/><em>düşündüğünüzden</em><br/>daha yakın.</h1>
-        <p>{data.hero.description}</p>
-        <div className="hero-actions"><a className="primary" href="#modeller">Modelleri keşfet <ArrowRightIcon/></a></div>
-      </div>
-      <div className="hero-note"><b>01</b><span>Size özel tasarım<br/>Anahtar teslim çözüm</span></div>
     </section>
 
     <section className="stats wrap">{data.stats.map((s,i)=><div key={s.label}><b>{s.value}</b><span>{s.label}</span>{i<data.stats.length-1&&<i/>}</div>)}</section>
