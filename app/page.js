@@ -14,7 +14,7 @@ const categoryGroups = [
     categories: [
       { title: 'Tek Kat', image: '/media/tamamlananprojeler/1.jpg', href: '/modeller?kategori=prefabrik-tek-kat' },
       { title: 'Çift Kat', image: '/media/tamamlananprojeler/10.jpg', href: '/modeller?kategori=prefabrik-cift-kat' },
-      { title: 'Konteyner', image: '/media/tamamlananprojeler/18.jpg', href: '/modeller?kategori=konteyner' },
+      { title: 'Konteyner', image: '/media/festival-konteyner.jpeg', href: '/modeller?kategori=konteyner' },
     ],
   },
   {
@@ -55,7 +55,7 @@ export default function Home() {
 
     <CompletedProjectsCarousel/>
 
-    <section className="why" id="neden"><div className="why-image"><Image src="https://www.festivalprefabrik.com/resim.asp?urun=222&w=1100&h=900&nrs=urun" fill alt="Çelik ev projesi" sizes="50vw"/></div><div className="why-copy">
+    <section className="why" id="neden"><div className="why-image"><Image src="/media/Yasam_alanlari_resim.jpeg" fill alt="Çelik ev projesi" sizes="50vw"/></div><div className="why-copy">
       <span className="section-kicker light">Neden Festival Prefabrik?</span><h2>Güvenle yükselen<br/>yaşam alanları.</h2><p>Yapınızı sadece bugün için değil, nesiller boyu güvenle kullanmanız için üretiyoruz.</p>
       <div className="benefits">{[['Depreme dayanıklı','Mühendislik standartlarına uygun taşıyıcı sistem.'],['Hızlı üretim','Haftalar içinde üretim ve montaj avantajı.'],['Isı ve ses yalıtımı','Dört mevsim konforlu, enerji verimli yaşam.'],['Şeffaf süreç','Planlamadan teslimata her adımda bilgilendirme.']].map(([a,b])=><div key={a}><span><CheckIcon/></span><section><b>{a}</b><small>{b}</small></section></div>)}</div>
     </div></section>

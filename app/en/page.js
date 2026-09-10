@@ -10,7 +10,7 @@ const categoryGroups = [
   { title: 'Prefabricated Houses', number: '01', description: 'Fast, efficient and flexible prefabricated building solutions.', categories: [
     { title: 'Single Storey', image: '/media/tamamlananprojeler/1.jpg', href: '/en/models?category=prefabricated-single-storey' },
     { title: 'Two Storey', image: '/media/tamamlananprojeler/10.jpg', href: '/en/models?category=prefabricated-two-storey' },
-    { title: 'Container', image: '/media/tamamlananprojeler/18.jpg', href: '/en/models?category=container' },
+    { title: 'Container', image: '/media/festival-konteyner.jpeg', href: '/en/models?category=container' },
   ]},
   { title: 'Steel Houses', number: '02', description: 'Durable, modern and long-lasting steel building solutions.', categories: [
     { title: 'Single Storey', image: '/media/tamamlananprojeler/24.jpg', href: '/en/models?category=steel-single-storey' },
