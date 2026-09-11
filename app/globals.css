@@ -70,3 +70,56 @@
  .detail-content{gap:32px}
  .related-grid>a>div{height:auto}
 }
+
+/* Model detail: photo gallery, specifications and portrait film. */
+.detail-visual{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr) minmax(0,.8fr);gap:28px;align-items:start}
+.model-gallery{min-width:0}
+.model-gallery .detail-image{aspect-ratio:4/5;background:#f3f5f6;display:flex;align-items:center}
+.model-gallery .detail-image img{width:100%;height:100%;object-fit:contain}
+.detail-visual aside{align-self:start;padding:28px}
+.detail-visual aside>div{gap:16px}
+.detail-visual aside b{text-align:right}
+.detail-visual aside>a{margin-top:32px;line-height:1.5}
+.detail-visual aside svg{flex-shrink:0}
+.model-video{min-width:0;background:#0e3150;aspect-ratio:9/16;overflow:hidden}
+.model-video video{display:block;width:100%;height:100%;object-fit:contain}
+@media(min-width:801px) and (max-width:1100px){.detail-visual{gap:18px;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr) minmax(0,.8fr)}.detail-visual aside{padding:20px}}
+@media(max-width:800px){.detail-visual{grid-template-columns:minmax(0,1fr);gap:24px}.detail-visual aside{padding:26px}.model-video{width:100%;max-width:360px;justify-self:center}}
+
+/* Gallery controls sit over the artwork; both media columns share a height. */
+.detail-visual{grid-template-columns:minmax(0,1.422222fr) minmax(0,.72fr) minmax(0,1fr)}
+.model-gallery{position:relative;aspect-ratio:4/5;align-self:start}
+.model-gallery .detail-image{width:100%;height:100%;padding:0;border:0;cursor:zoom-in}
+.gallery-arrow,.gallery-close{position:absolute;z-index:2;display:grid;place-items:center;width:42px;height:42px;border:1px solid #ffffff70;border-radius:50%;background:#ffffffed;color:var(--ink);cursor:pointer;box-shadow:0 2px 12px #0002}
+.gallery-arrow{top:50%;transform:translateY(-50%)}
+.gallery-arrow.previous{left:14px}.gallery-arrow.next{right:14px}
+.gallery-arrow svg,.gallery-close svg{width:20px;height:20px}
+.gallery-arrow:hover,.gallery-close:hover{background:#fff}
+.model-gallery button:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.gallery-count{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);padding:6px 12px;border-radius:20px;background:#102f48b3;color:white;font-size:11px;pointer-events:none}
+.model-video{position:relative;aspect-ratio:auto;align-self:stretch}
+.model-video video{position:absolute;inset:0}
+.model-lightbox{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:24px 70px;border:0;background:transparent;overflow:hidden}
+.model-lightbox[open]{display:flex;align-items:center;justify-content:center}
+.model-lightbox::backdrop{background:#06111aeb}
+.model-lightbox>img{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.gallery-close{top:20px;right:20px}
+body:has(.model-lightbox[open]){overflow:hidden}
+.detail-content{grid-template-columns:1fr}.detail-content>div{max-width:800px}
+@media(max-width:800px){.detail-visual{grid-template-columns:minmax(0,1fr)}.model-gallery,.model-video{height:min(calc((100vw - 32px) * 1.25),750px);aspect-ratio:auto}.model-video{max-width:none}.model-video video{position:static}.model-lightbox{padding:60px 12px}.model-lightbox .gallery-arrow{width:36px;height:36px}}
+
+/* A quiet, typographic specification panel between the two media frames. */
+.detail-visual aside.model-summary{background:transparent;color:var(--ink);padding:24px 8px 0;border-top:2px solid var(--red)}
+.detail-visual .model-summary>span{color:var(--red);font-size:10px;font-weight:700;letter-spacing:.16em;margin-bottom:28px}
+.detail-visual .model-summary>div{border-bottom:1px solid #dce0e1;padding:22px 0}
+.detail-visual .model-summary small{color:var(--muted);font-size:12px}
+.detail-visual .model-summary b{font-size:17px;font-weight:600}
+.detail-visual .model-summary>.summary-area{display:flex;flex-direction:column;align-items:flex-start;gap:10px;padding:0 0 28px}
+.detail-visual .model-summary>.summary-area b{font-size:clamp(36px,3.6vw,58px);letter-spacing:-.055em;line-height:1.15;font-weight:600;text-align:left}
+.detail-visual .model-summary>a{background:var(--red);color:#fff;margin-top:30px;padding:18px 20px;font-size:12px;transition:background .2s}
+.detail-visual .model-summary>a:hover{background:#df6900}
+@media(max-width:800px){.detail-visual aside.model-summary{padding:22px 0 0}.detail-visual .model-summary>span{margin-bottom:24px}.detail-visual .model-summary>.summary-area b{font-size:48px}}
+.gallery-window{width:100%;height:100%;overflow:hidden}
+.gallery-track{display:flex;width:100%;height:100%;transition:transform .45s cubic-bezier(.22,.61,.36,1);will-change:transform}
+.model-gallery .gallery-track .detail-image{flex:0 0 100%;min-width:0;aspect-ratio:auto}
+@media(prefers-reduced-motion:reduce){.gallery-track{transition:none}}
