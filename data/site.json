@@ -341,6 +341,54 @@
       "image": "/media/cift-kat-prefabrik/Festival_2_Katli_131m2.jpg",
       "plan": "/media/cift-kat-prefabrik/Festival_2_Katli_131_Plan.jpg",
       "description": "131 m² çift katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "40-m2-celik-tek-katli-ev",
+      "trSlug": "40-m2-celik-tek-katli-ev",
+      "code": "FP-S1-040",
+      "title": "40 m² Çelik Tek Katlı Ev",
+      "area": "40 m²",
+      "category": "celik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/celik-tek-kat/Festival_Celik_Ev_40m2.jpg",
+      "plan": "/media/celik-tek-kat/Festival_Celik_Ev_40m2.jpg",
+      "description": "40 m² çelik tek katlı ev modelimizin görselini inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "59-m2-celik-tek-katli-ev",
+      "trSlug": "59-m2-celik-tek-katli-ev",
+      "code": "FP-S1-059",
+      "title": "59 m² Çelik Tek Katlı Ev",
+      "area": "59 m²",
+      "category": "celik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/celik-tek-kat/Festival_Celik_Ev_59m2.jpg",
+      "plan": "/media/celik-tek-kat/Festival_Celik_Ev_59m2.jpg",
+      "description": "59 m² çelik tek katlı ev modelimizin görselini inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "111-m2-celik-cift-katli-ev",
+      "trSlug": "111-m2-celik-cift-katli-ev",
+      "code": "FP-S2-111",
+      "title": "111 m² Çelik Çift Katlı Ev",
+      "area": "111 m²",
+      "category": "celik-cift-kat",
+      "floors": "Çift kat",
+      "image": "/media/celik-cift-kat/Festival_Celik_Ev_111m2.jpg",
+      "plan": "/media/celik-cift-kat/Festival_Celik_Ev_111m2.jpg",
+      "description": "111 m² çelik çift katlı ev modelimizin görselini inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "122-m2-celik-cift-katli-ev",
+      "trSlug": "122-m2-celik-cift-katli-ev",
+      "code": "FP-S2-122",
+      "title": "122 m² Çelik Çift Katlı Ev",
+      "area": "122 m²",
+      "category": "celik-cift-kat",
+      "floors": "Çift kat",
+      "image": "/media/celik-cift-kat/Festival_Celik_Ev_122m2.jpg",
+      "plan": "/media/celik-cift-kat/Festival_Celik_Ev_122m2.jpg",
+      "description": "122 m² çelik çift katlı ev modelimizin görselini inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
     }
   ]
 }

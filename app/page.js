@@ -22,8 +22,8 @@ const categoryGroups = [
     number: '02',
     description: 'Dayanıklı, modern ve uzun ömürlü çelik yapı çözümleri.',
     categories: [
-      { title: 'Tek Kat', image: '/media/tamamlananprojeler/24.jpg', href: '/modeller?kategori=celik-tek-kat' },
-      { title: 'Çift Kat', image: '/media/tamamlananprojeler/29.jpg', href: '/modeller?kategori=celik-cift-kat' },
+      { title: 'Tek Kat', image: '/media/celik-tek-kat/Festival_Celik_Ev_59m2.jpg', href: '/modeller?kategori=celik-tek-kat' },
+      { title: 'Çift Kat', image: '/media/celik-cift-kat/Festival_Celik_Ev_122m2.jpg', href: '/modeller?kategori=celik-cift-kat' },
       { title: 'Bungalov', image: '/media/tamamlananprojeler/34.jpg', href: '/modeller?kategori=bungalov' },
     ],
   },
