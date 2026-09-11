@@ -46,3 +46,27 @@
 /* Corporate and contact pages */
 .corporate-hero{background:var(--cream);padding:95px 0 85px}.corporate-hero h1{color:var(--ink);font-size:58px;max-width:900px;margin-top:18px}.history-hero{background:linear-gradient(120deg,#f3f5f6,#e8edf0)}.corporate-body{display:grid;grid-template-columns:220px 1fr;gap:100px;padding:90px 0 110px}.corporate-body aside{display:flex;flex-direction:column;align-items:flex-start;gap:5px;position:sticky;top:30px;height:max-content}.corporate-body aside b{text-transform:uppercase;letter-spacing:.15em;font-size:9px;color:var(--muted);margin-bottom:12px}.corporate-body aside a{width:100%;padding:12px 0;border-bottom:1px solid #e0e4e6;font-size:12px;color:var(--muted)}.corporate-body aside a.active{color:var(--red);font-weight:700}.corporate-body>div{max-width:760px}.corporate-body p{font-size:14px;line-height:1.95;color:#5e6c74;margin:0 0 24px}.corporate-body .lead{font-family:Manrope;font-size:22px;line-height:1.55;color:var(--ink)}.corporate-body h2{font-size:34px;margin:55px 0 22px}.corporate-body blockquote{margin:45px 0;padding:28px 32px;border-left:4px solid var(--red);background:var(--cream);font-family:Manrope;font-size:20px;line-height:1.5;color:var(--ink)}.contact-page{padding:95px 0 110px;background:var(--cream)}.contact-page h1{font-size:58px;color:var(--ink);margin:16px 0 55px}.contact-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.contact-cards>div{background:#fff;padding:34px;min-height:310px;display:flex;flex-direction:column;align-items:flex-start;box-shadow:0 12px 40px rgba(14,49,80,.06)}.contact-cards>div>svg{width:30px;color:var(--red);margin-bottom:28px}.contact-cards b{font-family:Manrope;font-size:19px;margin-bottom:22px}.contact-cards a{font-size:14px;font-weight:600;margin-bottom:13px;color:var(--ink)}.contact-cards a small{display:block;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-size:8px;margin-bottom:3px}.contact-cards p{color:var(--muted);font-size:13px;line-height:1.8;margin:0 0 24px}.contact-cards>div>small{color:var(--muted);font-size:10px;line-height:1.6;margin-top:8px}
 @media(max-width:800px){.inner-header nav{align-items:stretch}.nav-group{height:auto;display:block}.nav-group>a{height:auto}.nav-group>a svg{margin-left:auto}.dropdown{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:0;border-left:2px solid var(--red);margin:8px 0 2px 10px;padding:0 8px;display:none}.nav-group:hover .dropdown,.nav-group:focus-within .dropdown{display:block}.dropdown a{padding:8px 10px;font-size:10px}.corporate-hero{padding:65px 0}.corporate-hero h1,.contact-page h1{font-size:39px}.corporate-body{grid-template-columns:1fr;gap:45px;padding:60px 0 75px}.corporate-body aside{position:static;display:grid;grid-template-columns:1fr 1fr}.corporate-body aside b{grid-column:1/-1}.corporate-body .lead{font-size:19px}.corporate-body h2{font-size:29px;margin-top:40px}.corporate-body blockquote{margin:35px 0;padding:22px;font-size:17px}.contact-page{padding:65px 0 75px}.contact-cards{grid-template-columns:1fr}.contact-cards>div{min-height:auto}.topline a:last-child{display:none}}
+
+/* Keep product artwork and floor plans fully visible. */
+.models-list .model-cover{height:auto;aspect-ratio:4/5;background:#f3f5f6}
+.models-list .model-cover img,.detail-image img,.related-grid img{object-fit:contain}
+.model-plan h3{font-family:Manrope,sans-serif;font-size:26px;margin:14px 0 25px}
+.model-plan img{display:block;width:100%;height:auto}
+
+/* Portrait product layout: image dimensions determine the frame height. */
+.detail-visual{grid-template-columns:minmax(0,600px) minmax(260px,1fr);gap:56px;align-items:center;min-height:0;margin-bottom:72px}
+.detail-image{display:block;min-height:0;background:transparent}
+.detail-image img{display:block;width:100%;height:auto;position:static;object-fit:contain}
+.detail-visual aside{min-height:0;padding:36px;align-self:center}
+.detail-visual aside>a{margin-top:36px;gap:20px}
+.detail-content{gap:72px;align-items:center}
+.model-plan{max-width:440px;width:100%;justify-self:center}
+.related-grid>a>div{height:auto;aspect-ratio:4/5;background:transparent}
+@media(max-width:800px){
+ .detail-visual{grid-template-columns:minmax(0,1fr);gap:24px;margin:28px auto 56px;max-width:600px}
+ .detail-image{min-height:0}
+ .detail-visual aside{min-height:0;padding:26px}
+ .detail-visual aside>a{margin-top:26px}
+ .detail-content{gap:32px}
+ .related-grid>a>div{height:auto}
+}

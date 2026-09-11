@@ -12,16 +12,335 @@
     "description": "Modern prefabrik ve çelik yapı çözümleriyle hayalinizdeki evi hızlı, güvenli ve size özel üretiyoruz.",
     "image": "https://www.festivalprefabrik.com/resimbas.asp?rsm=20170109_130200-15.jpg&nrs=slider&w=1920&h=800&s=1"
   },
-  "stats": [{"value":"20+","label":"Yıllık deneyim"},{"value":"5000+","label":"Tamamlanan yapı"},{"value":"81","label":"İle sevkiyat"},{"value":"10 yıl","label":"Taşıyıcı sistem garantisi"}],
+  "stats": [
+    {
+      "value": "20+",
+      "label": "Yıllık deneyim"
+    },
+    {
+      "value": "5000+",
+      "label": "Tamamlanan yapı"
+    },
+    {
+      "value": "81",
+      "label": "İle sevkiyat"
+    },
+    {
+      "value": "10 yıl",
+      "label": "Taşıyıcı sistem garantisi"
+    }
+  ],
   "categories": [
-    {"title":"Tek Katlı Prefabrik Evler","text":"Zamansız tasarım, verimli planlama ve hızlı kurulum.","image":"https://www.festivalprefabrik.com/resim.asp?urun=138&w=900&h=700&nrs=urun","tag":"En çok tercih edilen","href":"/modeller?kategori=prefabrik-tek-kat"},
-    {"title":"Çift Katlı Prefabrik Evler","text":"Geniş aileler için ferah ve güçlü yaşam alanları.","image":"https://www.festivalprefabrik.com/resim.asp?urun=170&w=900&h=700&nrs=urun","tag":"Geniş yaşam","href":"/modeller?kategori=prefabrik-cift-kat"},
-    {"title":"Çelik Evler","text":"Yüksek dayanım, modern mimari ve uzun ömür.","image":"https://www.festivalprefabrik.com/resim.asp?urun=214&w=900&h=700&nrs=urun","tag":"Maksimum dayanım","href":"/modeller?kategori=celik-tek-kat"}
+    {
+      "title": "Tek Katlı Prefabrik Evler",
+      "text": "Zamansız tasarım, verimli planlama ve hızlı kurulum.",
+      "image": "/media/tek-kat-prefabrik/Festival_84m2.jpg",
+      "tag": "En çok tercih edilen",
+      "href": "/modeller?kategori=prefabrik-tek-kat"
+    },
+    {
+      "title": "Çift Katlı Prefabrik Evler",
+      "text": "Geniş aileler için ferah ve güçlü yaşam alanları.",
+      "image": "/media/cift-kat-prefabrik/Festival_2_Katli_118m2.jpg",
+      "tag": "Geniş yaşam",
+      "href": "/modeller?kategori=prefabrik-cift-kat"
+    },
+    {
+      "title": "Çelik Evler",
+      "text": "Yüksek dayanım, modern mimari ve uzun ömür.",
+      "image": "https://www.festivalprefabrik.com/resim.asp?urun=214&w=900&h=700&nrs=urun",
+      "tag": "Maksimum dayanım",
+      "href": "/modeller?kategori=celik-tek-kat"
+    }
   ],
   "projects": [
-    {"slug":"49-m2-tek-katli-ev","code":"FP-049","title":"49 m² Tek Katlı Ev","area":"49 m²","rooms":"2+1","bathrooms":"1","floors":"Tek kat","delivery":"30–45 gün","image":"https://www.festivalprefabrik.com/resim.asp?urun=126&w=1200&h=900&nrs=urun","description":"Kompakt yaşamı ferah bir planla buluşturan 49 m² modelimiz; yazlık, bağ evi veya küçük aileler için ekonomik ve konforlu bir çözüm sunar.","features":["Galvaniz çelik taşıyıcı sistem","Yüksek yoğunluklu ısı yalıtımı","PVC ısıcam pencere sistemi","Laminat parke ve seramik zemin","Elektrik ve sıhhi tesisat altyapısı","İç ve dış cephe boya uygulaması"]},
-    {"slug":"68-m2-tek-katli-ev","code":"FP-068","title":"68 m² Tek Katlı Ev","area":"68 m²","rooms":"2+1","bathrooms":"1","floors":"Tek kat","delivery":"35–50 gün","image":"https://www.festivalprefabrik.com/resim.asp?urun=129&w=1200&h=900&nrs=urun","description":"Geniş salonu, kullanışlı mutfağı ve dengeli oda dağılımıyla 68 m² model; yıl boyu yaşam için ideal, enerji verimli bir aile evidir.","features":["Galvaniz çelik taşıyıcı sistem","Taş yünü destekli duvar yalıtımı","Isıcamlı PVC doğrama","Çelik dış kapı ve Amerikan panel iç kapılar","Anahtar ve priz montajları","Mutfak dolabı ve tezgâh altyapısı"]},
-    {"slug":"84-m2-tek-katli-ev","code":"FP-084","title":"84 m² Tek Katlı Ev","area":"84 m²","rooms":"3+1","bathrooms":"1","floors":"Tek kat","delivery":"40–55 gün","image":"https://www.festivalprefabrik.com/resim.asp?urun=138&w=1200&h=900&nrs=urun","description":"Üç yatak odası ve aydınlık ortak alanlarıyla tasarlanan 84 m² model, kalabalık ailelerin tüm ihtiyaçlarını tek katta karşılar.","features":["Deprem yönetmeliğine uygun üretim","Güçlendirilmiş çatı makas sistemi","Isı ve ses yalıtımlı dış duvarlar","Islak hacimlerde tam seramik uygulaması","Vitrifiye ve armatür seti","Projeye özel renk seçenekleri"]},
-    {"slug":"96-m2-tek-katli-ev","code":"FP-096","title":"96 m² Tek Katlı Ev","area":"96 m²","rooms":"3+1","bathrooms":"2","floors":"Tek kat","delivery":"45–60 gün","image":"https://www.festivalprefabrik.com/resim.asp?urun=141&w=1200&h=900&nrs=urun","description":"Geniş aile yaşamına göre planlanan 96 m² model; ebeveyn banyosu, ferah salonu ve güçlü depolama alanlarıyla üst düzey konfor sağlar.","features":["Galvanizli ağır hizmet çelik karkas","Yüksek performanslı çatı yalıtımı","Çift banyo altyapısı","Geniş veranda seçeneği","Enerji verimli pencere ve kapılar","İç mekânda farklı malzeme alternatifleri"]}
+    {
+      "slug": "40-m2-tek-katli-ev",
+      "trSlug": "40-m2-tek-katli-ev",
+      "code": "FP-1-040",
+      "title": "40 m² Tek Katlı Prefabrik Ev",
+      "area": "40 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_40m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_40m2_Plan.jpg",
+      "description": "40 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "49-m2-tek-katli-ev",
+      "trSlug": "49-m2-tek-katli-ev",
+      "code": "FP-1-049",
+      "title": "49 m² Tek Katlı Prefabrik Ev",
+      "area": "49 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_49m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_49m2_Plan.jpg",
+      "description": "49 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "54-m2-tek-katli-ev",
+      "trSlug": "54-m2-tek-katli-ev",
+      "code": "FP-1-054",
+      "title": "54 m² Tek Katlı Prefabrik Ev",
+      "area": "54 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_54m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_54m2_Plan.jpg",
+      "description": "54 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "62-m2-tek-katli-ev",
+      "trSlug": "62-m2-tek-katli-ev",
+      "code": "FP-1-062",
+      "title": "62 m² Tek Katlı Prefabrik Ev",
+      "area": "62 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_62m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_62m2_Plan.jpg",
+      "description": "62 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "69-m2-tek-katli-ev",
+      "trSlug": "69-m2-tek-katli-ev",
+      "code": "FP-1-069",
+      "title": "69 m² Tek Katlı Prefabrik Ev",
+      "area": "69 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_69m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_69m2_Plan.jpg",
+      "description": "69 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "74-m2-tek-katli-ev",
+      "trSlug": "74-m2-tek-katli-ev",
+      "code": "FP-1-074",
+      "title": "74 m² Tek Katlı Prefabrik Ev",
+      "area": "74 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_74m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_74m2_Plan.jpg",
+      "description": "74 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "78-m2-tek-katli-ev",
+      "trSlug": "78-m2-tek-katli-ev",
+      "code": "FP-1-078",
+      "title": "78 m² Tek Katlı Prefabrik Ev",
+      "area": "78 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_78m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_78m2_Plan.jpg",
+      "description": "78 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "84-m2-tek-katli-ev",
+      "trSlug": "84-m2-tek-katli-ev",
+      "code": "FP-1-084",
+      "title": "84 m² Tek Katlı Prefabrik Ev",
+      "area": "84 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_84m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_84m2_Plan.jpg",
+      "description": "84 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "84-m2-tek-katli-ev-2",
+      "trSlug": "84-m2-tek-katli-ev-2",
+      "code": "FP-1-084-2",
+      "title": "84 m² Tek Katlı Prefabrik Ev — Model 2",
+      "area": "84 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_84m2_2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_84m2_2_Plan.jpg",
+      "description": "84 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "88-m2-tek-katli-ev",
+      "trSlug": "88-m2-tek-katli-ev",
+      "code": "FP-1-088",
+      "title": "88 m² Tek Katlı Prefabrik Ev",
+      "area": "88 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_88m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_88m2_Plan.jpg",
+      "description": "88 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "91-m2-tek-katli-ev",
+      "trSlug": "91-m2-tek-katli-ev",
+      "code": "FP-1-091",
+      "title": "91 m² Tek Katlı Prefabrik Ev",
+      "area": "91 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_91m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_91m2_Plan.jpg",
+      "description": "91 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "91-m2-tek-katli-ev-2",
+      "trSlug": "91-m2-tek-katli-ev-2",
+      "code": "FP-1-091-2",
+      "title": "91 m² Tek Katlı Prefabrik Ev — Model 2",
+      "area": "91 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_91m2_2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_91m2_2_Plan.jpg",
+      "description": "91 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "95-m2-tek-katli-ev",
+      "trSlug": "95-m2-tek-katli-ev",
+      "code": "FP-1-095",
+      "title": "95 m² Tek Katlı Prefabrik Ev",
+      "area": "95 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_95m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_95m2_Plan.jpg",
+      "description": "95 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "98-m2-tek-katli-ev",
+      "trSlug": "98-m2-tek-katli-ev",
+      "code": "FP-1-098",
+      "title": "98 m² Tek Katlı Prefabrik Ev",
+      "area": "98 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_98m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_98m2_Plan.jpg",
+      "description": "98 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "110-m2-tek-katli-ev",
+      "trSlug": "110-m2-tek-katli-ev",
+      "code": "FP-1-110",
+      "title": "110 m² Tek Katlı Prefabrik Ev",
+      "area": "110 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_110m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_110m2_Plan.jpg",
+      "description": "110 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "117-m2-tek-katli-ev",
+      "trSlug": "117-m2-tek-katli-ev",
+      "code": "FP-1-117",
+      "title": "117 m² Tek Katlı Prefabrik Ev",
+      "area": "117 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_117m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_117m2_Plan.jpg",
+      "description": "117 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "124-m2-tek-katli-ev",
+      "trSlug": "124-m2-tek-katli-ev",
+      "code": "FP-1-124",
+      "title": "124 m² Tek Katlı Prefabrik Ev",
+      "area": "124 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_124m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_124m2_Plan.jpg",
+      "description": "124 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "129-m2-tek-katli-ev",
+      "trSlug": "129-m2-tek-katli-ev",
+      "code": "FP-1-129",
+      "title": "129 m² Tek Katlı Prefabrik Ev",
+      "area": "129 m²",
+      "category": "prefabrik-tek-kat",
+      "floors": "Tek kat",
+      "image": "/media/tek-kat-prefabrik/Festival_129m2.jpg",
+      "plan": "/media/tek-kat-prefabrik/Festival_129m2_Plan.jpg",
+      "description": "129 m² tek katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "82-m2-cift-katli-ev",
+      "trSlug": "82-m2-cift-katli-ev",
+      "code": "FP-2-082",
+      "title": "82 m² Çift Katlı Prefabrik Ev",
+      "area": "82 m²",
+      "category": "prefabrik-cift-kat",
+      "floors": "Çift kat",
+      "image": "/media/cift-kat-prefabrik/Festival_2_Katli_82m2.jpg",
+      "plan": "/media/cift-kat-prefabrik/Festival_2_Katli_82m2_Plan.jpg",
+      "description": "82 m² çift katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "101-m2-cift-katli-ev",
+      "trSlug": "101-m2-cift-katli-ev",
+      "code": "FP-2-101",
+      "title": "101 m² Çift Katlı Prefabrik Ev",
+      "area": "101 m²",
+      "category": "prefabrik-cift-kat",
+      "floors": "Çift kat",
+      "image": "/media/cift-kat-prefabrik/Festival_2_Katli_101m2.jpg",
+      "plan": "/media/cift-kat-prefabrik/Festival_2_Katli_101m2_Plan.jpg",
+      "description": "101 m² çift katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "105-m2-cift-katli-ev",
+      "trSlug": "105-m2-cift-katli-ev",
+      "code": "FP-2-105",
+      "title": "105 m² Çift Katlı Prefabrik Ev",
+      "area": "105 m²",
+      "category": "prefabrik-cift-kat",
+      "floors": "Çift kat",
+      "image": "/media/cift-kat-prefabrik/Festival_2_Katli_105m2.jpg",
+      "plan": "/media/cift-kat-prefabrik/Festival_2_Katli_105m2_Plan.jpg",
+      "description": "105 m² çift katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "118-m2-cift-katli-ev",
+      "trSlug": "118-m2-cift-katli-ev",
+      "code": "FP-2-118",
+      "title": "118 m² Çift Katlı Prefabrik Ev",
+      "area": "118 m²",
+      "category": "prefabrik-cift-kat",
+      "floors": "Çift kat",
+      "image": "/media/cift-kat-prefabrik/Festival_2_Katli_118m2.jpg",
+      "plan": "/media/cift-kat-prefabrik/Festival_2_Katli_118m2_Plan.jpg",
+      "description": "118 m² çift katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "125-m2-cift-katli-ev",
+      "trSlug": "125-m2-cift-katli-ev",
+      "code": "FP-2-125",
+      "title": "125 m² Çift Katlı Prefabrik Ev",
+      "area": "125 m²",
+      "category": "prefabrik-cift-kat",
+      "floors": "Çift kat",
+      "image": "/media/cift-kat-prefabrik/Festival_2_Katli_125m2_Plan.jpg",
+      "plan": "/media/cift-kat-prefabrik/Festival_2_Katli_125m2_Plan.jpg",
+      "description": "125 m² çift katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    },
+    {
+      "slug": "131-m2-cift-katli-ev",
+      "trSlug": "131-m2-cift-katli-ev",
+      "code": "FP-2-131",
+      "title": "131 m² Çift Katlı Prefabrik Ev",
+      "area": "131 m²",
+      "category": "prefabrik-cift-kat",
+      "floors": "Çift kat",
+      "image": "/media/cift-kat-prefabrik/Festival_2_Katli_131m2.jpg",
+      "plan": "/media/cift-kat-prefabrik/Festival_2_Katli_131_Plan.jpg",
+      "description": "131 m² çift katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
+    }
   ]
 }

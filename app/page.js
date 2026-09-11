@@ -12,8 +12,8 @@ const categoryGroups = [
     number: '01',
     description: 'Hızlı, verimli ve ihtiyaca göre şekillenen prefabrik çözümler.',
     categories: [
-      { title: 'Tek Kat', image: '/media/tamamlananprojeler/1.jpg', href: '/modeller?kategori=prefabrik-tek-kat' },
-      { title: 'Çift Kat', image: '/media/tamamlananprojeler/10.jpg', href: '/modeller?kategori=prefabrik-cift-kat' },
+      { title: 'Tek Kat', image: '/media/tek-kat-prefabrik/Festival_84m2.jpg', href: '/modeller?kategori=prefabrik-tek-kat' },
+      { title: 'Çift Kat', image: '/media/cift-kat-prefabrik/Festival_2_Katli_118m2.jpg', href: '/modeller?kategori=prefabrik-cift-kat' },
       { title: 'Konteyner', image: '/media/festival-konteyner.jpeg', href: '/modeller?kategori=konteyner' },
     ],
   },
