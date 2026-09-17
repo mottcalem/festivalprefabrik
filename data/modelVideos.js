@@ -1,0 +1,27 @@
+const modelVideos = {
+  'FP-1-040': 'TE12WbNp9Pw',
+  'FP-1-049': 'QWI9oV5uB34',
+  'FP-1-054': 'b1lraUqW_cc',
+  'FP-1-062': 'TtjzzzAzjm4',
+  'FP-1-069': 'I1kkQpj0x-0',
+  'FP-1-078': 'jjxIfQtP5To',
+  'FP-1-084': 'zG6m2hUB_aU',
+  'FP-1-084-2': 'dbU8_-Zzw3I',
+  'FP-1-088': 'WrPF1_A6_uI',
+  'FP-1-091': '6B0kPn-nZ9E',
+  'FP-1-091-2': 'qk2G4gjV2A0',
+  'FP-1-095': 'tOuzrDTK9Q8',
+  'FP-1-098': 'XFI5CNG6qwg',
+  'FP-1-110': 'MkRfa4fi9VY',
+  'FP-1-117': 'gReBH24qkTg',
+  'FP-1-124': 'NqwThjtFjs8',
+  'FP-1-129': 'CzACLUm0egw',
+  'FP-2-082': 'MD0KYKoqsOs',
+  'FP-2-101': 'kRhw6-NoxmE',
+  'FP-2-105': 'Rytrg1yvoko',
+  'FP-2-118': 'id6WJrF2AtM',
+  'FP-2-125': 'sURQfWqfgl8',
+  'FP-2-131': 'PEtadP5e_qo',
+};
+
+export default modelVideos;
