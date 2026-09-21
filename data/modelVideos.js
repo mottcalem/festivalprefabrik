@@ -4,6 +4,7 @@ const modelVideos = {
   'FP-1-054': 'b1lraUqW_cc',
   'FP-1-062': 'TtjzzzAzjm4',
   'FP-1-069': 'I1kkQpj0x-0',
+  'FP-1-074': 'Zz6eRaObVzk',
   'FP-1-078': 'jjxIfQtP5To',
   'FP-1-084': 'zG6m2hUB_aU',
   'FP-1-084-2': 'dbU8_-Zzw3I',
