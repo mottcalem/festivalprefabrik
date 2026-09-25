@@ -3,7 +3,7 @@
   "phone": "0356 551 11 00",
   "mobile": "0554 366 02 03",
   "secondaryMobile": "0532 297 08 71",
-  "whatsapp": "05322970871",
+  "whatsapp": "05543660203",
   "email": "info@festivalprefabrik.com",
   "address": "Çevre Yolu Cad., Bağlar Mah. No: 9, Total Petrol Yanı, Niksar / Tokat",
   "hero": {
@@ -326,7 +326,11 @@
       "area": "125 m²",
       "category": "prefabrik-cift-kat",
       "floors": "Çift kat",
-      "image": "/media/cift-kat-prefabrik/Festival_2_Katli_125m2_Plan.jpg",
+      "image": "/media/cift-kat-prefabrik/Festival_2_Katli_125m2.jpeg",
+      "images": [
+        "/media/cift-kat-prefabrik/Festival_2_Katli_125m2.jpeg",
+        "/media/cift-kat-prefabrik/Festival_2_Katli_125m2_Plan.jpg"
+      ],
       "plan": "/media/cift-kat-prefabrik/Festival_2_Katli_125m2_Plan.jpg",
       "description": "125 m² çift katlı prefabrik ev modelimizin görselini ve kat planını inceleyin. Projeye özel ayrıntılar ve fiyatlandırma için bizimle iletişime geçin."
     },

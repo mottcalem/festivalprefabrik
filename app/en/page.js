@@ -5,6 +5,7 @@ import SiteFooter from '@/components/SiteFooter';
 import HeroSlider from '@/components/HeroSlider';
 import CompletedProjectsCarousel from '@/components/CompletedProjectsCarousel';
 import data from '@/data/site.en.json';
+import { pageMetadata } from '@/lib/seo';
 
 const categoryGroups = [
   { title: 'Prefabricated Houses', number: '01', description: 'Fast, efficient and flexible prefabricated building solutions.', categories: [
@@ -15,11 +16,11 @@ const categoryGroups = [
   { title: 'Steel Houses', number: '02', description: 'Durable, modern and long-lasting steel building solutions.', categories: [
     { title: 'Single Storey', image: '/media/tamamlananprojeler/24.jpg', href: '/en/models?category=steel-single-storey' },
     { title: 'Two Storey', image: '/media/tamamlananprojeler/29.jpg', href: '/en/models?category=steel-two-storey' },
-    { title: 'Bungalow', image: '/media/tamamlananprojeler/34.jpg', href: '/en/models?category=bungalow' },
+    { title: 'Bungalow', image: '/media/bungalov-ornek.png', href: '/en/models?category=bungalow' },
   ]},
 ];
 
-export const metadata = { title: 'Festival Prefabrik | Modern Prefabricated Houses', description: 'Modern prefabricated and steel house solutions, manufactured in Türkiye and delivered nationwide.' };
+export const metadata = pageMetadata({ title: 'Modern Prefabricated Houses', description: 'Explore modern prefabricated, steel house, container and bungalow solutions delivered throughout Türkiye.', path: '/en', trPath: '/', enPath: '/en', locale: 'en' });
 
 export default function EnglishHome() {
   return <main>
@@ -40,11 +41,11 @@ export default function EnglishHome() {
 
     <CompletedProjectsCarousel locale="en"/>
 
-    <section className="why" id="why"><div className="why-image"><Image src="https://www.festivalprefabrik.com/resim.asp?urun=222&w=1100&h=900&nrs=urun" fill alt="Steel house" sizes="50vw"/></div><div className="why-copy"><span className="section-kicker light">Why Festival Prefabrik?</span><h2>Living spaces<br/>built on trust.</h2><p>We manufacture your building for generations of safe and comfortable use.</p><div className="benefits">{[['Earthquake resistant','Engineered structural systems compliant with standards.'],['Fast production','Manufacturing and assembly completed in weeks.'],['Thermal insulation','Comfortable and energy-efficient in every season.'],['Transparent process','Clear communication from planning to delivery.']].map(([title,text])=><div key={title}><span><CheckIcon/></span><section><b>{title}</b><small>{text}</small></section></div>)}</div></div></section>
+    <section className="why" id="why"><div className="why-image"><Image src="/media/Yasam_alanlari_resim.jpeg" fill alt="Steel house project" sizes="50vw"/></div><div className="why-copy"><span className="section-kicker light">Why Festival Prefabrik?</span><h2>Living spaces<br/>built on trust.</h2><p>We manufacture your building for generations of safe and comfortable use.</p><div className="benefits">{[['Earthquake resistant','Engineered structural systems compliant with standards.'],['Fast production','Manufacturing and assembly completed in weeks.'],['Thermal insulation','Comfortable and energy-efficient in every season.'],['Transparent process','Clear communication from planning to delivery.']].map(([title,text])=><div key={title}><span><CheckIcon/></span><section><b>{title}</b><small>{text}</small></section></div>)}</div></div></section>
 
     <section className="process" id="process"><div className="wrap"><span className="section-kicker">Your home in four steps</span><h2>From concept to turnkey.</h2><div className="steps">{[['01','Discovery'],['02','Design'],['03','Production'],['04','Assembly & delivery']].map(([number,title],index)=><div key={number}><b>{number}</b><span>{title}</span>{index<3&&<ArrowRightIcon/>}</div>)}</div></div></section>
 
-    <section className="cta" id="contact"><div className="wrap cta-inner"><div><span className="section-kicker light">Let’s discuss your project</span><h2>Let’s bring your dream<br/>building to life.</h2><p>Our team will listen to your needs and prepare a free preliminary proposal.</p></div><div className="contact-box"><span>Call us now</span><a href={`tel:${data.mobile.replaceAll(' ','')}`}>{data.mobile}</a><small>Weekdays 08:30 — 18:00</small><a className="white-btn" href="/en/quote">Request a quote <ArrowRightIcon/></a></div></div></section>
+    <section className="cta" id="contact"><div className="cta-shape"/><div className="wrap cta-inner"><div><span className="section-kicker light">Let’s discuss your project</span><h2>Let’s bring your dream<br/>building to life.</h2><p>Our team will listen to your needs and prepare a free preliminary proposal.</p></div><div className="contact-box"><span>Call us now</span><a href={`tel:${data.mobile.replaceAll(' ','')}`}>{data.mobile}</a><small>Weekdays 08:30 — 18:00</small><a className="white-btn" href="/en/quote">Request a quote <ArrowRightIcon/></a></div></div></section>
     <SiteFooter locale="en"/>
   </main>;
 }

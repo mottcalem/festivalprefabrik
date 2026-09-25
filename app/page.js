@@ -5,6 +5,9 @@ import SiteHeader from '@/components/SiteHeader';
 import SiteFooter from '@/components/SiteFooter';
 import HeroSlider from '@/components/HeroSlider';
 import CompletedProjectsCarousel from '@/components/CompletedProjectsCarousel';
+import { pageMetadata } from '@/lib/seo';
+
+export const metadata = pageMetadata({ title: 'Prefabrik ve Çelik Ev Çözümleri', description: 'Festival Prefabrik ile Türkiye geneline modern prefabrik ev, çelik ev, konteyner ve bungalov çözümlerini inceleyin.', path: '/', trPath: '/', enPath: '/en' });
 
 const categoryGroups = [
   {
@@ -24,7 +27,7 @@ const categoryGroups = [
     categories: [
       { title: 'Tek Kat', image: '/media/celik-tek-kat/Festival_Celik_Ev_59m2.jpg', href: '/modeller?kategori=celik-tek-kat' },
       { title: 'Çift Kat', image: '/media/celik-cift-kat/Festival_Celik_Ev_122m2.jpg', href: '/modeller?kategori=celik-cift-kat' },
-      { title: 'Bungalov', image: '/media/tamamlananprojeler/34.jpg', href: '/modeller?kategori=bungalov' },
+      { title: 'Bungalov', image: '/media/bungalov-ornek.png', href: '/modeller?kategori=bungalov' },
     ],
   },
 ];

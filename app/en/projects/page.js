@@ -1,8 +1,9 @@
 import CompletedProjectsGrid from '@/components/CompletedProjectsGrid';
 import SiteFooter from '@/components/SiteFooter';
 import SiteHeader from '@/components/SiteHeader';
+import { pageMetadata } from '@/lib/seo';
 
-export const metadata = { title: 'Completed Projects | Festival Prefabrik', description: 'Explore Festival Prefabrik completed projects.' };
+export const metadata = pageMetadata({ title: 'Completed Projects', description: 'Explore completed prefabricated and steel building projects delivered by Festival Prefabrik.', path: '/en/projects', trPath: '/projeler', enPath: '/en/projects', locale: 'en' });
 
 export default function ProjectsPage() {
   return <main><SiteHeader locale="en"/>

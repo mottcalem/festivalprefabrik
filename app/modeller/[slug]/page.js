@@ -6,10 +6,12 @@ import { ArrowLeftIcon, ArrowRightIcon, CheckIcon, HomeModernIcon } from '@heroi
 import SiteHeader from '@/components/SiteHeader';
 import SiteFooter from '@/components/SiteFooter';
 import data from '@/data/site.json';
+import enData from '@/data/site.en.json';
 import modelVideos from '@/data/modelVideos';
+import {pageMetadata} from '@/lib/seo';
 
 export function generateStaticParams(){return data.projects.map(p=>({slug:p.slug}))}
-export async function generateMetadata({params}){const {slug}=await params;const p=data.projects.find(x=>x.slug===slug);return p?{title:`${p.title} | Festival Prefabrik`,description:p.description}:{}}
+export async function generateMetadata({params}){const {slug}=await params;const p=data.projects.find(x=>x.slug===slug);const enProject=enData.projects.find(x=>x.trSlug===p?.slug);return p?pageMetadata({title:p.title,description:p.description,path:`/modeller/${p.slug}`,trPath:`/modeller/${p.slug}`,enPath:enProject?`/en/models/${enProject.slug}`:undefined,image:p.image}):{}}
 export default async function ModelDetail({params}){const {slug}=await params;const p=data.projects.find(x=>x.slug===slug);if(!p)notFound();const others=data.projects.filter(x=>x.slug!==slug&&x.category===p.category).slice(0,3);return <main><SiteHeader/>
   <section className="detail-top wrap"><a className="back" href="/modeller"><ArrowLeftIcon/> Tüm modeller</a><div className="detail-title"><div><span className="section-kicker">{p.code} · {p.floors}</span><h1>{p.title}</h1></div><p>{p.description}</p></div></section>
   <section className="detail-visual wrap"><ModelGallery key={p.slug} images={[...new Set([...(p.images?.length ? p.images : [p.image]), p.plan].filter(Boolean))]} title={p.title} locale="tr"/><aside className="model-summary"><span>Model özeti</span>{[['Model alanı',p.area],['Oda planı',p.rooms],['Banyo',p.bathrooms],['Kat',p.floors],['Tahmini teslim',p.delivery]].filter(([,v])=>v).map(([k,v])=><div className={v === p.area ? "summary-area" : "summary-row"} key={k}><small>{k}</small><b>{v}</b></div>)}<a href={`/teklif?model=${encodeURIComponent(p.title)}`}>Bu model için teklif al <ArrowRightIcon/></a></aside><ModelVideo src={p.video} youtubeId={modelVideos[p.code]} locale="tr"/></section>

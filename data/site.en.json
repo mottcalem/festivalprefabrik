@@ -2,7 +2,7 @@
   "phone": "0356 551 11 00",
   "mobile": "0554 366 02 03",
   "secondaryMobile": "0532 297 08 71",
-  "whatsapp": "05322970871",
+  "whatsapp": "05543660203",
   "email": "info@festivalprefabrik.com",
   "address": "Çevre Yolu Cad., Bağlar Mah. No: 9, next to Total Petrol, Niksar / Tokat",
   "projects": [
@@ -278,7 +278,11 @@
       "area": "125 m²",
       "category": "prefabrik-cift-kat",
       "floors": "Two Storey",
-      "image": "/media/cift-kat-prefabrik/Festival_2_Katli_125m2_Plan.jpg",
+      "image": "/media/cift-kat-prefabrik/Festival_2_Katli_125m2.jpeg",
+      "images": [
+        "/media/cift-kat-prefabrik/Festival_2_Katli_125m2.jpeg",
+        "/media/cift-kat-prefabrik/Festival_2_Katli_125m2_Plan.jpg"
+      ],
       "plan": "/media/cift-kat-prefabrik/Festival_2_Katli_125m2_Plan.jpg",
       "description": "Explore the images and floor plan of our 125 m² two storey prefabricated house. Contact us for project details and pricing."
     },
@@ -293,6 +297,54 @@
       "image": "/media/cift-kat-prefabrik/Festival_2_Katli_131m2.jpg",
       "plan": "/media/cift-kat-prefabrik/Festival_2_Katli_131_Plan.jpg",
       "description": "Explore the images and floor plan of our 131 m² two storey prefabricated house. Contact us for project details and pricing."
+    },
+    {
+      "slug": "40-m2-steel-single-storey-house",
+      "trSlug": "40-m2-celik-tek-katli-ev",
+      "code": "FP-S1-040",
+      "title": "40 m² Steel Single Storey House",
+      "area": "40 m²",
+      "category": "celik-tek-kat",
+      "floors": "Single Storey",
+      "image": "/media/celik-tek-kat/celikev40m2.png",
+      "plan": "/media/celik-tek-kat/Festival_Celik_Ev_40m2.jpg",
+      "description": "Explore our 40 m² steel single storey house model. Contact us for project details and pricing."
+    },
+    {
+      "slug": "59-m2-steel-single-storey-house",
+      "trSlug": "59-m2-celik-tek-katli-ev",
+      "code": "FP-S1-059",
+      "title": "59 m² Steel Single Storey House",
+      "area": "59 m²",
+      "category": "celik-tek-kat",
+      "floors": "Single Storey",
+      "image": "/media/celik-tek-kat/Festival_Celik_Ev_59m2.jpg",
+      "plan": "/media/celik-tek-kat/Festival_Celik_Ev_59m2.jpg",
+      "description": "Explore our 59 m² steel single storey house model. Contact us for project details and pricing."
+    },
+    {
+      "slug": "111-m2-steel-two-storey-house",
+      "trSlug": "111-m2-celik-cift-katli-ev",
+      "code": "FP-S2-111",
+      "title": "111 m² Steel Two Storey House",
+      "area": "111 m²",
+      "category": "celik-cift-kat",
+      "floors": "Two Storey",
+      "image": "/media/celik-cift-kat/Festival_Celik_Ev_111m2.jpg",
+      "plan": "/media/celik-cift-kat/Festival_Celik_Ev_111m2.jpg",
+      "description": "Explore our 111 m² steel two storey house model. Contact us for project details and pricing."
+    },
+    {
+      "slug": "122-m2-steel-two-storey-house",
+      "trSlug": "122-m2-celik-cift-katli-ev",
+      "code": "FP-S2-122",
+      "title": "122 m² Steel Two Storey House",
+      "area": "122 m²",
+      "category": "celik-cift-kat",
+      "floors": "Two Storey",
+      "image": "/media/celik-cift-kat/Festival_Celik_Ev_122m2.jpg",
+      "plan": "/media/celik-cift-kat/Festival_Celik_Ev_122m2.jpg",
+      "description": "Explore our 122 m² steel two storey house model. Contact us for project details and pricing."
     }
   ]
 }
