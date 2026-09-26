@@ -14,8 +14,8 @@ const categoryGroups = [
     { title: 'Container', image: '/media/festival-konteyner.jpeg', href: '/en/models?category=container' },
   ]},
   { title: 'Steel Houses', number: '02', description: 'Durable, modern and long-lasting steel building solutions.', categories: [
-    { title: 'Single Storey', image: '/media/tamamlananprojeler/24.jpg', href: '/en/models?category=steel-single-storey' },
-    { title: 'Two Storey', image: '/media/tamamlananprojeler/29.jpg', href: '/en/models?category=steel-two-storey' },
+    { title: 'Single Storey', image: '/media/celik-tek-kat/Festival_Celik_Ev_59m2.jpg', href: '/en/models?category=steel-single-storey' },
+    { title: 'Two Storey', image: '/media/celik-cift-kat/Festival_Celik_Ev_122m2.jpg', href: '/en/models?category=steel-two-storey' },
     { title: 'Bungalow', image: '/media/bungalov-ornek.png', href: '/en/models?category=bungalow' },
   ]},
 ];
